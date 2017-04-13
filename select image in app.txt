@@ -1,0 +1,15 @@
+// When the button of "Select a Photo in Album" is pressed.
+    public void selectImageInAlbum(View view) {
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType("image/*");
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(intent, REQUEST_SELECT_IMAGE_IN_ALBUM);
+
+        }
+    }
+//////////////////////////////////////////////////////
+public void logout(View view) {
+        startActivity(new Intent(SelectImageActivity.this, MainActivity.class));
+
+        LoginManager.getInstance().logOut();
+    }
