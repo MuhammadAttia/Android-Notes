@@ -1,0 +1,18 @@
+1-lunch screen :https://material.io/guidelines/patterns/launch-screens.html
+
+2-sign in screen:https://github.com/androidcss/android-material-design-user-interface-login-screen
+
+3- sign up screen
+
+4- fragments is:
+	1- report suspect: same as old design
+	2- report missing: same as old design
+	3- reports: new screen contains all missing reports the user report
+	4- gallery: same as old design but instead of i saw him/ i know him buttons it will be show info.
+
+
+
+notes:
+errors: https://material.io/guidelines/patterns/errors.html
+buttons:https://material.io/guidelines/components/buttons.html
+text: https://material.io/guidelines/components/text-fields.html
